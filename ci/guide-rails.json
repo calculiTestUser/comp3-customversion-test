@@ -3,7 +3,7 @@
 		"version": 2
 	},
 	"application": {
-		"name": "vw-go-shw",
+		"name": "custom-version2",
 		"language": "GOLANG",
 		"artifact_store": {
 			"type": "s3",
