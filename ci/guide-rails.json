@@ -239,7 +239,12 @@
 						"UnhealthyThresholdCount": 0
 					}
 				},
-				"releases": null
+				"releases": [
+					{
+						"name": "consul",
+						"version": "latest"
+					}
+				]
 			},
 			{
 				"name": "Integration",
@@ -336,7 +341,6 @@
 						]
 					}
 				],
-				"gated": true,
 				"post_deployment_actions": {
 					"instances": null,
 					"loadbalanced": false,
@@ -351,7 +355,12 @@
 						"UnhealthyThresholdCount": 0
 					}
 				},
-				"releases": null
+				"releases": [
+					{
+						"name": "consul",
+						"version": "latest"
+					}
+				]
 			},
 			{
 				"name": "Release",
@@ -457,7 +466,6 @@
 						]
 					}
 				],
-				"gated": true,
 				"post_deployment_actions": {
 					"instances": null,
 					"loadbalanced": false,
@@ -472,7 +480,12 @@
 						"UnhealthyThresholdCount": 0
 					}
 				},
-				"releases": null
+				"releases": [
+					{
+						"name": "consul",
+						"version": "latest"
+					}
+				]
 			},
 			{
 				"name": "Production",
@@ -593,7 +606,12 @@
 						"UnhealthyThresholdCount": 0
 					}
 				},
-				"releases": null
+				"releases": [
+					{
+						"name": "consul",
+						"version": "latest"
+					}
+				]
 			}
 		],
 		"exit_actions": {
@@ -626,12 +644,7 @@
 				"command": "bin/start_service.sh"
 			}
 		},
-		"releases": [
-			{
-				"name": "consul",
-				"version": "latest"
-			}
-		]
+		"releases": null
 	},
 	"organization": {
 		"orgname": "GR-Product"
