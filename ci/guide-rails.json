@@ -119,8 +119,7 @@
 							}
 						]
 					}
-				],
-				"releases": null
+				]
 			},
 			{
 				"name": "Isolation",
@@ -341,7 +340,6 @@
 						]
 					}
 				],
-				"gated": true,
 				"post_deployment_actions": {
 					"instances": null,
 					"loadbalanced": false,
@@ -644,8 +642,7 @@
 			"init": {
 				"command": "bin/start_service.sh"
 			}
-		},
-		"releases": null
+		}
 	},
 	"organization": {
 		"orgname": "GR-Product"
